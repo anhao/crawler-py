@@ -33,10 +33,10 @@ else:
     import queue as Queue
 import time
 
-download_path='/root/tumblr/download'
+download_path='/root/crawler-py/tumblr/download'
 if not os.path.exists(download_path):
     os.mkdir(download_path)
-link_path='/root/tumblr/jiexi'
+link_path='/root/crawler-py/tumblr/jiexi'
 if not os.path.exists(link_path):
     os.mkdir(link_path)
 
